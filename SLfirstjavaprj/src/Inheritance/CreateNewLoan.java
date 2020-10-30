@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CreateNewLoan {
 	public static void main(String args[]) {
 		Scanner s1 = new Scanner(System.in);
-	     System.out.println("Enter loan type (1 for HomeLoan | 2 for CarLoan) :");
+	     System.out.println("Enter loan type (1 for Home Loan | 2 for Car Loan) :");
 		 String opt = s1.nextLine();
 		 if (opt.matches("1")) {
 			 HomeLoan h1 = new HomeLoan("Jay Chand",200000, 120, "345609" );
